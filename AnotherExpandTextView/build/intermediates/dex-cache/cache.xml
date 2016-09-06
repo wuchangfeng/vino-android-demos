@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\CloneAndroid\ExpandTextView\example\build\intermediates\exploded-aar\com.hymane.expandtextview\library\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="c32c699c31f204852cfb119933a8dbdabe94963f">
+        <dex dex="F:\CloneAndroid\ExpandTextView\example\build\intermediates\pre-dexed\debug\com.hymane.expandtextview-library-1.0.0_1c3d9d0670b5a281d58ee2a5449bee8405dbdd94.jar" />
+    </item>
+    <item
+        jar="C:\Users\allen\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="F:\CloneAndroid\ExpandTextView\example\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_ac1b58f9aa33694452992eaa4455ca6376e00e41.jar" />
+    </item>
+    <item
+        jar="F:\CloneAndroid\ExpandTextView\example\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="F:\CloneAndroid\ExpandTextView\example\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_9d3f214e22aae5aca5cd3fd78badece173e7c1ab.jar" />
+    </item>
+    <item
+        jar="F:\CloneAndroid\ExpandTextView\example\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="F:\CloneAndroid\ExpandTextView\example\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_0ceaf08d796bb236a2cb0970ef2043034b4ecb29.jar" />
+    </item>
+    <item
+        jar="F:\CloneAndroid\ExpandTextView\example\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="F:\CloneAndroid\ExpandTextView\example\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_470cad56888432acfcaca63b38e258b466b6468f.jar" />
+    </item>
+    <item
+        jar="F:\CloneAndroid\ExpandTextView\example\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="F:\CloneAndroid\ExpandTextView\example\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_03518abc3d0ab8faff1bb636a156066b377ba00b.jar" />
+    </item>
+    <item
+        jar="F:\CloneAndroid\ExpandTextView\example\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="F:\CloneAndroid\ExpandTextView\example\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_c3171671b7771123fe90f489c536673779f359b2.jar" />
+    </item>
+
+</items>

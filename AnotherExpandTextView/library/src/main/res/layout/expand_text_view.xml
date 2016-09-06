@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--标题-->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:singleLine="true"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp" />
+<!--显示内容-->
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lineSpacingExtra="6dp"
+        android:textColor="@color/primary_text"
+        android:textIsSelectable="true"
+        android:textSize="14sp" />
+<!--显示更多的布局-->
+    <RelativeLayout
+        android:id="@+id/rl_show_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:paddingLeft="10dp"
+        android:background="@android:color/transparent"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingRight="20dp">
+<!--横线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_centerInParent="true"
+            android:background="@color/dividers" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="5dp">
+<!--向下的箭头-->
+            <ImageView
+                android:id="@+id/iv_arrow_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_down_light_round" />
+<!--点击展开或者点击收回-->
+            <TextView
+                android:id="@+id/tv_more_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/primary_text"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>
