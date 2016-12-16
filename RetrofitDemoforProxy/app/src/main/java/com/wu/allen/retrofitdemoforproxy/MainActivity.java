@@ -15,6 +15,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity {
     public static final String API_URL = "https://api.github.com";
     private static final String TAG = "MainActivity";
+    private String BASE_URL = "https://api.shanbay.com/";
     Button btnSearch;
     TextView tvShowinfo;
 
@@ -29,21 +30,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl(API_URL)
-                    .addConverterFactory(GsonConverterFactory.create())
-                    .build();
-                GitHubApi github = retrofit.create(GitHubApi.class);
-                Call<Repo> call = github.listInfos("wuchangfeng");
-                call.enqueue(new Callback<Repo>() {
+                        .baseUrl(BASE_URL)
+                        .addConverterFactory(GsonConverterFactory.create())
+                        .build();
+                ShanBeiApi shanbei= retrofit.create(ShanBeiApi.class);
+                Call<Translation> call = shanbei.listInfos("hello");
+                call.enqueue(new Callback<Translation>() {
+
                     @Override
-                    public void onResponse(Call<Repo> call, Response<Repo> response) {
-                        Log.d(TAG,response.body().getBlog());
-                        tvShowinfo.setText(response.body().getBlog());
+                    public void onResponse(Call<Translation> call, Response<Translation> response) {
+                        //String msg = response.body().getData().getDefinition();
+                        //System.out.println(msg);
+                        //tvShowinfo.setText(msg);
+                        Log.d(TAG,response.body().getData().getDefinition());
                     }
 
                     @Override
-                    public void onFailure(Call<Repo> call, Throwable t) {
-                        Log.d(TAG,t.getMessage());
+                    public void onFailure(Call<Translation> call, Throwable throwable) {
+                        Log.d(TAG,throwable.getMessage());
                     }
                 });
             }
